@@ -1,0 +1,13 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Suma de dos numeros
+  <br>
+  <input type="number" [(ngModel)]="myNum1">
+  <input type="number" [(ngModel)]="myNum2">
+  <br>
+  <button (click)="suma()"> Suma </button>
+  <button (click)="resta()"> Resta </button>
+  <button (click)="multiplicacion()"> Multiplicación </button>
+  <button (click)="division()"> División </button>
+  <br> RESULTADO: {{resultado}}
+</p>
